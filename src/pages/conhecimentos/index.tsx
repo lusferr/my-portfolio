@@ -8,7 +8,7 @@ export default function Conhecimentos() {
         <Container id='conhecimentos'>
             <Row style={{ minHeight: '65vh' }} className='my-4 border-primary border-bottom'>
                 <Col>
-                    <h1 className='text-center pb-4' style={{ marginTop: '11vh' }}>Conhecimentos</h1>
+                    <h1 className='text-center pb-4' style={{ marginTop: '6rem' }}>Conhecimentos</h1>
                     <div className='d-flex justify-content-center gap-4 flex-wrap mb-4'>
                         <CardTech name='HTML5' icon='https://i.imgur.com/mZNVzJ9.png'/>
                         <CardTech name='CSS' icon='https://i.imgur.com/XTAvw43.png'/>

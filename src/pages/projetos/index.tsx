@@ -9,7 +9,7 @@ export default function Projetos() {
         <Container id='projetos' >
             <Row style={{ minHeight: '65vh' }} className='my-4 border-primary border-bottom'>
                 <Col >
-                    <h1 className='text-center pb-4' style={{ marginTop: '11vh' }}>Projetos</h1>
+                    <h1 className='text-center pb-4' style={{ marginTop: '6rem' }}>Projetos</h1>
                     <div className='d-flex justify-content-center gap-4 flex-wrap mb-4'>
                         <CardProject 
                         link='https://github.com/lusferr/projeto-pokedex-mapadev-week'

@@ -9,7 +9,7 @@ export default function Experiencia(){
         <Container id='experiencia'>
             <Row style={{ minHeight: '65vh' }} className='my-4 border-primary border-bottom'>
                 <Col>
-                    <h1 className='text-center pb-4' style={{ marginTop: '11vh' }}>Experiências</h1>
+                    <h1 className='text-center pb-4' style={{ marginTop: '6rem' }}>Experiências</h1>
                         <CardExp/>
                 </Col>
             </Row>
