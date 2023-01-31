@@ -7,10 +7,11 @@ interface CardProjectProps {
     title: string;
     text: string;
     tech?: string;
+    techMobile?: string;
     link: string;
 }
 
-export default function CardProject({ img, title, text, link, tech }: CardProjectProps) {
+export default function CardProject({ img, title, text, link, tech, techMobile }: CardProjectProps) {
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={img} alt={title} style={{ height: '15rem' }} />
@@ -18,6 +19,7 @@ export default function CardProject({ img, title, text, link, tech }: CardProjec
                 <div className='d-flex align-items-center gap-2 border-top border-primary pt-2'>
                     <Card.Title className='mb-0'>{title}</Card.Title>
                     <Badge bg="secondary"  >{tech}</Badge>
+                    <Badge bg="secondary"  >{techMobile}</Badge>
                 </div>
 
                 <Card.Text>
