@@ -49,6 +49,14 @@ export default function Projetos() {
                             text='Projeto final desenvolvido no Bootcamp da Generation Brasil em grupos de 5. Trata-se de uma rede social para conectar trabalhadores a serviços'
                         />
 
+                        <CardProject
+                            link='https://github.com/lusferr/evogym-tailwind'
+                            img='https://i.imgur.com/crSyUBE.png'
+                            title='Evogym'
+                            tech='React'
+                            text='Projeto desenvolvido para praticar o uso de tailwind e typescript, é uma landing page para uma academia.'
+                        />
+
                     </div>
                 </Col>
             </Row>
